@@ -20,4 +20,10 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  layouts: 
+  application:
+  frontpage: "Front Page"
+  aboutme: "About Me"
+  recent: "Recent Works"
+  contact: "Get in touch"
+

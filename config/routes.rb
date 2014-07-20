@@ -1,8 +1,5 @@
 Rails.application.routes.draw do
-  #match '/index', :to => 'static_pages#index', :via => :get
-  root 'static_pages#index'
-
- 
+root 'static_pages#index', via: [:get, :post]
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
