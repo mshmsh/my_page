@@ -1,5 +1,5 @@
 html {
-	background:#505D6E url(/assets/body1.jpg) no-repeat center center fixed; 
+	background:#505D6E url(/assets/body3.jpg) no-repeat center center fixed; 
 	min-height:100%;
 	-webkit-background-size: cover;
 	   -moz-background-size: cover;
@@ -65,20 +65,20 @@ body {
 	top: -14em;
 	left: 0px;
 	font-size: 13px;
-	padding:0;
-	background:none;
+	padding: 0;
+	background: none;
 	border:0 none;
 	border-radius: 2px;
 	-webkit-box-shadow: none;
 	box-shadow: none;
-	display:block;
-	opacity:0;
+	display: block;
+	opacity: 0;
 	-webkit-transition: all .45s;
 	   -moz-transition: all .45s;
 	        transition: all .45s;
 }
 .mainmenu .dropdown-menu .active { 
-	font-weight:bold;
+	font-weight: bold;
 }
 .mainmenu .open .dropdown-menu { 
 	top:2px;
@@ -244,35 +244,6 @@ a:hover, a:active { color:#fff; text-decoration: underline; }
 	width:340px; 
 	margin:0 auto;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /***********************************************************/
 /*                   Theme: text shadows                   */
