@@ -3,7 +3,6 @@
 <head>
 <title><%= full_title(yield(:title)) %></title>
     <%= stylesheet_link_tag  'application',"http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css", 'http://fonts.googleapis.com/css?family=Wire+One', media: 'all', 'data-turbolinks-track' => true %>
-    <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
     <%= csrf_meta_tags %>
 	
 </head>
@@ -24,6 +23,8 @@ options_for_select(LANGUAGES, I18n.locale.to_s),
 <%= render 'layouts/works' %>
 
 <%= render 'layouts/contact' %>
+
+<%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
 </body>
 
 </html>
