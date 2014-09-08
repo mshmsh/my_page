@@ -1,1 +1,0 @@
- `'$$('.locale input').each(Element.hide)'`
