@@ -29,9 +29,10 @@ body {
             width:100%;
             padding: 20px ;
             background: #555;
+            border-bottom: 1px solid white;
             }
 .mainmenu a {
-	        font-size: 16px;
+	        font-size: 15px;
 
 }            
 @media (min-width: 768px) {
@@ -41,7 +42,7 @@ body {
 }
 a.navbar-brand {
 	font-family: "Wire One", Helvetica, Arial, sans-serif;
-	font-size: 40px;
+	font-size: 50px;
 	}
 
 .navbar-toggle {
