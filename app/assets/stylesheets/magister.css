@@ -39,6 +39,10 @@ body {
 
 	
 }
+a.navbar-brand {
+	font-family: "Wire One", Helvetica, Arial, sans-serif;
+	font-size: 40px;
+	}
 
 .navbar-toggle {
 	position:relative;
