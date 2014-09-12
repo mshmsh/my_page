@@ -5,6 +5,7 @@ html {
 	   -moz-background-size: cover;
 	     -o-background-size: cover;
 	        background-size: cover;
+
      }
 
 body {
@@ -12,7 +13,7 @@ body {
 	min-height:100%; 	
 	-webkit-font-smoothing: antialiased;
 	-webkit-overflow-scrolling: touch;
-	line-height: 1.5em;
+	line-height:1.5em;
 	font-size:14px;
 	font-family: "Montaga", Helvetica, Arial, sans-serif;
 	color:#fff;
@@ -132,6 +133,7 @@ a.navbar-brand {
 	padding-bottom:50px; 
 	display:none;
 	top:0;
+
 } 
 @media (min-width: 768px) {
 	.section { padding-top:160px;}
@@ -361,6 +363,7 @@ a:hover, a:active { color:#fff; text-decoration: underline; }
 .mastfoot {
   color: rgba(0,0,0,.4);
   position: relative;
+  margin-bottom: 55px;
 }
 
                                                   
