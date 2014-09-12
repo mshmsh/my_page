@@ -1,5 +1,5 @@
 html {
-	background:#505D6E no-repeat center center fixed; 
+	background:#505D6E url(paper-4.jpg) no-repeat center center fixed; 
 	min-height:100%;
 	-webkit-background-size: cover;
 	   -moz-background-size: cover;
@@ -28,22 +28,24 @@ body {
 .mainmenu { z-index: 999999;
             width:100%;
             padding: 20px ;
-            background: #555;
-            border-bottom: 1px solid white;
+            /*background: #555;*/
+            border-bottom: 1px solid black;
             }
 .mainmenu a {
 	        font-size: 15px;
 
-}            
+}
 @media (min-width: 768px) {
 	.mainmenu { position: fixed;
 
 	
 }
+
 a.navbar-brand {
 	font-family: "Wire One", Helvetica, Arial, sans-serif;
 	font-size: 50px;
-	}
+	
+    		}
 
 .navbar-toggle {
 	position:relative;
@@ -228,7 +230,7 @@ a:hover, a:active { color:#fff; text-decoration: underline; }
 .thumbnail {
 	background-color: rgba(255,255,255,.2);
 	border: 0 none;
-	padding:10px;
+	padding:5px;
 	-webkit-border-radius: 2px;
 	   -moz-border-radius: 2px;
 	        border-radius: 2px;
@@ -261,6 +263,7 @@ a:hover, a:active { color:#fff; text-decoration: underline; }
 	margin:0 auto;
 }
 
+
 /***********************************************************/
 /*                   Theme: text shadows                   */
 /***********************************************************/
@@ -290,6 +293,9 @@ a:hover, a:active { color:#fff; text-decoration: underline; }
  }
 .theme-invert a { 
 	color:#000;
+}
+.theme-invert .navbar-brand {
+	color : blue;
 }
 .theme-invert .btn {
 	color:rgba(255,255,255,.8);
@@ -353,8 +359,7 @@ a:hover, a:active { color:#fff; text-decoration: underline; }
 
 
 .mastfoot {
-  color: #999; /* IE8 proofing */
-  color: rgba(255,255,255,.4);
+  color: rgba(0,0,0,.4);
   position: relative;
 }
 
