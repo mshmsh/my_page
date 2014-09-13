@@ -360,12 +360,14 @@ a:hover, a:active { color:#fff; text-decoration: underline; }
 	color: inherit;
 }
 
+/* I added it */
 
 .mastfoot {
   color: rgba(0,0,0,.4);
   position: relative;
   margin-bottom: 55px;
 }
+
 
 
 
