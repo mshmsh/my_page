@@ -5,8 +5,7 @@ html {
 	   -moz-background-size: cover;
 	     -o-background-size: cover;
 	        background-size: cover;
-
-     }
+	}
 
 body {
 	background:transparent;
@@ -88,8 +87,8 @@ a.navbar-brand {
 	background: none;
 	border:0 none;
 	border-radius: 2px;
-	-webkit-box-shadow: none;
-	box-shadow: none;
+    -webkit-box-shadow:none;
+    box-shadow: none;
 	display: block;
 	opacity: 0;
 	-webkit-transition: all .45s;
@@ -367,9 +366,8 @@ a:hover, a:active { color:#fff; text-decoration: underline; }
   position: relative;
   margin-bottom: 55px;
 }
-.table {
-	background:transparent;
-}
+/*This is just a test for using */
+/* This is just a test */
 
 
 
