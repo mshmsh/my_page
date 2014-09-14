@@ -1,5 +1,5 @@
 html {
-	background:#505D6E url(paper-4.jpg) no-repeat center center fixed; 
+	background:#505D6E url(paper-4.jpg) no-repeat center center fixed;
 	min-height:100%;
 	-webkit-background-size: cover;
 	   -moz-background-size: cover;
@@ -9,14 +9,14 @@ html {
 
 body {
 	background:transparent;
-	min-height:100%; 	
+	min-height:100%;
 	-webkit-font-smoothing: antialiased;
 	-webkit-overflow-scrolling: touch;
 	line-height:1.5em;
 	font-size:14px;
 	font-family: "Montaga", Helvetica, Arial, sans-serif;
 	color:#fff;
-	color:rgba(255,255,255,.8); 
+	color:rgba(255,255,255,.8);
 	font-weight: normal;
     }
 
@@ -38,13 +38,13 @@ body {
 @media (min-width: 768px) {
 	.mainmenu { position: fixed;
 
-	
+
 }
 
 a.navbar-brand {
 	font-family: "Wire One", Helvetica, Arial, sans-serif;
 	font-size: 50px;
-	
+
     		}
 
 .navbar-toggle {
@@ -55,7 +55,7 @@ a.navbar-brand {
 	background: rgba(255, 255, 255, 0.2);
 	background-image: none;
 	border: 0 none;
-	top:0px; 
+	top:0px;
 	-webkit-border-radius: 2px;
 	   -moz-border-radius: 2px;
 	        border-radius: 2px;
@@ -75,9 +75,9 @@ a.navbar-brand {
 .navbar-toggle .icon-bar + .icon-bar {
 	margin-top: 4px;
 }
-.open .navbar-toggle { 
-	top:-70px; 
-	opacity: 0;  
+.open .navbar-toggle {
+	top:-70px;
+	opacity: 0;
 }
 .mainmenu .dropdown-menu {
 	top: -14em;
@@ -95,14 +95,14 @@ a.navbar-brand {
 	   -moz-transition: all .45s;
 	        transition: all .45s;
 }
-.mainmenu .dropdown-menu .active { 
+.mainmenu .dropdown-menu .active {
 	font-weight: bold;
 }
-.mainmenu .open .dropdown-menu { 
+.mainmenu .open .dropdown-menu {
 	top:2px;
 	opacity:1;
 }
-.mainmenu .dropdown-menu a { 
+.mainmenu .dropdown-menu a {
 	padding:10px 10px;
 	margin:0;
 	color:white;
@@ -111,7 +111,7 @@ a.navbar-brand {
 	   -moz-border-radius: 2px;
 	        border-radius: 2px;
 }
-.mainmenu .dropdown-menu a:hover { 
+.mainmenu .dropdown-menu a:hover {
 	background:rgba(255,255,255,.1);
 	color:white;
 	padding:10px 8px 10px 12px;
@@ -122,10 +122,10 @@ a.navbar-brand {
 /********************************************************/
 /*             Sections - universal classes             */
 /********************************************************/
-.section { 
+.section {
 	z-index: 1;
 	min-height:420px;
-	width: 100%; 
+	width: 100%;
 	overflow:auto;
 	height:100%;
 	padding-top:100px;
@@ -134,13 +134,13 @@ a.navbar-brand {
 	top:0;
 
 
-} 
+}
 @media (min-width: 768px) {
 	.section { padding-top:160px;}
 }
 
 /* Show one of sections */
-#head { 
+#head {
 	display: block;
 }
 
@@ -150,29 +150,29 @@ a.navbar-brand {
 /********************************************************/
 a { color:#fff; text-decoration: none; }
 a:hover, a:active { color:#fff; text-decoration: underline; }
-.lead { 
+.lead {
 	font-weight:normal;
 	font-size:1.5em;
 	line-height:1.2em;
 }
 
 .title,
-.subtitle { 
+.subtitle {
 	font-family: 'Wire One', Helvetica, Arial, sans-serif;
-	font-weight:normal;
+	font-weight:300;
 	font-size:7em;
 	margin-top: 0;
-	margin-bottom:15px; 
-	color:#FDF9F4; 
+	margin-bottom:25px;
+	color:#FDF9F4;
 	line-height:1em;
 }
-.subtitle { 
+.subtitle {
 	line-height:.9em;
 	font-size:5.5em;
 	margin-top:0;
-	margin-bottom:50px; 
+	margin-bottom:50px;
 }
-.tagline { 
+.tagline {
 	font-size:1.4em;
 	line-height:1.3em;
 	font-weight:normal;
@@ -180,7 +180,7 @@ a:hover, a:active { color:#fff; text-decoration: underline; }
 }
 
 @media (max-width: 767px) {
-	.lead { 
+	.lead {
 		font-size:1.3em;
 	}
 }
@@ -201,7 +201,7 @@ a:hover, a:active { color:#fff; text-decoration: underline; }
 .btn:hover {
 	color:#000;
 }
-.btn-lg { 
+.btn-lg {
 	padding:16px 30px;
 	font-size:inherit;
 }
@@ -248,21 +248,21 @@ a:hover, a:active { color:#fff; text-decoration: underline; }
 /*                 Everything else                      */
 /********************************************************/
 
-.list-social .btn { 
-	font-size:1.3em; 
+.list-social .btn {
+	font-size:1.3em;
 }
-.list-social .btn:hover, .list-social .btn:active, .list-social .btn:focus { 
-	text-decoration: none; 
+.list-social .btn:hover, .list-social .btn:active, .list-social .btn:focus {
+	text-decoration: none;
 }
 
 
 /* Social buttons in the footer */
-#social { 
+#social {
 	margin-top:50px;
 	margin-bottom:50px;
 }
-#social .wrapper { 
-	width:340px; 
+#social .wrapper {
+	width:340px;
 	margin:0 auto;
 }
 
@@ -270,18 +270,18 @@ a:hover, a:active { color:#fff; text-decoration: underline; }
 /***********************************************************/
 /*                   Theme: text shadows                   */
 /***********************************************************/
-.text-shadows { 	
+.text-shadows {
 	text-shadow:0 1px 2px rgba(0,0,0,.2);
 }
 .text-shadows .title,
 .text-shadows .subtitle,
-.text-shadows .tagline { 
+.text-shadows .tagline {
 	text-shadow:0 2px 3px rgba(0,0,0,.4);
 }
-.text-shadows .mainmenu .dropdown-menu a { 
+.text-shadows .mainmenu .dropdown-menu a {
 	text-shadow:0 2px 1px rgba(0,0,0,.2);
 }
-.text-shadows .mainmenu .dropdown-menu a:hover { 
+.text-shadows .mainmenu .dropdown-menu a:hover {
 	text-shadow:none;
 }
 
@@ -290,11 +290,11 @@ a:hover, a:active { color:#fff; text-decoration: underline; }
 /***********************************************************/
 /*                   Inverted theme                        */
 /***********************************************************/
-.theme-invert { 	
+.theme-invert {
 	color:#222;
-	color:rgba(0,0,0,.8); 
+	color:rgba(0,0,0,.8);
  }
-.theme-invert a { 
+.theme-invert a {
 	color:#000;
 }
 .theme-invert .navbar-brand {
@@ -318,18 +318,18 @@ a:hover, a:active { color:#fff; text-decoration: underline; }
 .theme-invert .navbar-toggle .icon-bar {
   background: #333;
 }
-.theme-invert .mainmenu .dropdown-menu a { 
+.theme-invert .mainmenu .dropdown-menu a {
 	color:#000;
 }
-.theme-invert .mainmenu .dropdown-menu a:hover { 
+.theme-invert .mainmenu .dropdown-menu a:hover {
 	background:rgba(0,0,0,.1);
 	color:#000;
 }
 
 .theme-invert .title,
 .theme-invert .subtitle,
-.theme-invert .tagline { 
-	color:#222222; 
+.theme-invert .tagline {
+	color:#222222;
 }
 
 .theme-invert .btn-default {
@@ -376,7 +376,7 @@ a:hover, a:active { color:#fff; text-decoration: underline; }
 
 
 
-                                                  
+
 
 
 
