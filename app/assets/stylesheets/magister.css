@@ -1,5 +1,5 @@
 html {
-	background:#505D6E url(paper-4.jpg) no-repeat center center fixed;
+	background:#505D6E url(seamlesstexture2_1200.jpg) no-repeat center center fixed;
 	min-height:100%;
 	-webkit-background-size: cover;
 	   -moz-background-size: cover;
@@ -29,7 +29,7 @@ body {
             width:100%;
             padding: 20px ;
             /*background: #555;*/
-            border-bottom: 1px solid black;
+            border-bottom: 1px solid white;
             }
 .mainmenu a {
 	        font-size: 15px;
