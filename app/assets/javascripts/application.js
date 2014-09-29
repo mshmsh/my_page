@@ -13,7 +13,6 @@
 //= require jquery
 //= require jquery.ui.effect-blind
 //= require jquery_ujs
-//= require turbolinks
 //= require twitter/bootstrap/dropdown
 //= require twitter/bootstrap/alert
 //= require twitter/bootstrap/collapse
